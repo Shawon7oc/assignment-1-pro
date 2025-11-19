@@ -117,3 +117,72 @@ nav {
   justify-content: center;
   gap: 24px;
 }
+/* future */
+#future {
+  padding: 24px 160px 24px 160px;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#future .future-title {
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+#future .future-subtitle {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+#future .future-vision-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+#future .future-vision-subtitle {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+#future .future-btn {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 11px 20px 11px 20px;
+  border: none;
+}
+#future .future-vision-mu {
+  width: 410px;
+  border-radius: 16px;
+  padding: 32px;
+}
+#future .future-vision {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.primary-bg-a {
+  background: rgba(84, 144, 245, 0.2);
+}
+.primary-bg-b {
+  background: rgba(198, 228, 214, 1);
+}
+.primary-bg-c {
+  background: rgba(247, 235, 207, 1);
+}
+.fv-btn-a {
+  background: rgba(84, 144, 245, 1);
+}
+.fv-btn-b {
+  background: rgba(9, 161, 92, 1);
+}
+.fv-btn-c {
+  background: rgba(255, 194, 57, 1);
+}
