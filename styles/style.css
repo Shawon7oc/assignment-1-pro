@@ -48,11 +48,14 @@ nav {
   padding: 15px 30px 15px 30px;
 }
 /* hero section */
-.hero {
-  display: flex;
-  width: 1180px;
+#header-b {
+  max-width: 1280px;
+  padding: 24px 160px 24px 160px;
   margin-left: auto;
   margin-right: auto;
+}
+.hero {
+  display: flex;
   margin-top: 20px;
   gap: 64;
   border-radius: 24px;
@@ -76,40 +79,41 @@ nav {
   margin-bottom: 20px;
 }
 /* pillars */
-.pillars {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
+#pillars {
+  padding: 24px 160px 24px 160px;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .pillars-mn {
   color: rgba(14, 14, 14, 1);
-  font-family: Fira Sans;
   font-size: 40px;
   font-weight: 700;
-  text-align: left;
-  margin-left: 305px;
-  margin-top: 80px;
+  margin-bottom: 32px;
 }
-.pillars-dv {
-  box-sizing: border-box;
-  border: 1px solid #0e0e0e26;
-  border-radius: 16px;
-  background: #ffffff;
-  padding: 24px;
-}
-.pillars-title {
+#pillars .pillars-title {
   color: rgba(14, 14, 14, 0.8);
-  font-family: Fira Sans;
   font-size: 20px;
   font-weight: 700;
-  text-align: left;
+  margin-top: 24px;
+  margin-bottom: 12px;
 }
-.pillars-subtitle {
-  color: #0e0e0eb3;
-  font-family: Fira Sans;
+#pillars .pillars-subtitle {
+  color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: 0%;
-  text-align: left;
+  line-height: 24px;
+}
+#pillars .pillars-dv {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+  padding: 24px;
+  width: 302px;
+}
+#pillars .men-pillars {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
