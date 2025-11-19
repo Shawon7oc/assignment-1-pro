@@ -186,3 +186,35 @@ nav {
 .fv-btn-c {
   background: rgba(255, 194, 57, 1);
 }
+/* dr */
+#dr-s {
+  padding: 24px 160px 24px 160px;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#dr-s .dr {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 24px 25px;
+  padding: 48px 24px 48px 24px;
+}
+#dr-s .dr-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+}
+#dr-s .dr-name {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+#dr-s .dr-subtitle {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
