@@ -342,3 +342,66 @@ nav {
   margin-top: 24px;
   margin-bottom: 24px;
 }
+/* donate */
+#donate {
+  padding: 24px 160px 24px 160px;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#donate .donate-m .donate-title {
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+#donate .donate-m .donate-subtitle {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+#donate .donate-many .donate-am {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+  width: 240px;
+  padding: 40px;
+  text-align: center;
+}
+.donate-many {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.donate-taka {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 1);
+  padding: 20px 40px 20px 40px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.btn-of-many {
+  margin-left: 556px;
+}
+.donate-many-sc {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgba(198, 228, 214, 1);
+  width: 240px;
+  padding: 40px;
+  text-align: center;
+}
