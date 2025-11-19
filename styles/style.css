@@ -231,6 +231,11 @@ nav {
   font-weight: 700;
   margin-bottom: 24px;
 }
+.opinion-bnr {
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+  padding: 32px;
+}
 #opinion table {
   border-collapse: collapse;
   width: 100%;
