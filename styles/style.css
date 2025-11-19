@@ -218,3 +218,54 @@ nav {
   font-size: 16px;
   font-weight: 400;
 }
+/* opinion */
+#opinion {
+  padding: 24px 160px 24px 160px;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.opinion-title {
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+#opinion table {
+  border-collapse: collapse;
+  width: 100%;
+}
+#opinion table th {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(198, 228, 214, 1);
+  color: rgba(14, 14, 14, 1);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 24px;
+}
+#opinion table th span {
+  margin-left: 896px;
+}
+.opinion-a {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  color: rgba(14, 14, 14, 1);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 24px;
+}
+.opinion-b {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  color: rgba(14, 14, 14, 1);
+  font-size: 16px;
+  font-weight: 600;
+}
+.opinion-btn {
+  border: 1px solid rgba(14, 14, 14, 1);
+  border-radius: 4px;
+  background: rgba(198, 228, 214, 1);
+  padding: 10px;
+  color: rgba(14, 14, 14, 1);
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 75px;
+}
