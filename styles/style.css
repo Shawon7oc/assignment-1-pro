@@ -467,3 +467,25 @@ nav {
   text-align: center;
   margin-top: 24px;
 }
+/* footer */
+#footer{
+  background-color: #ffffff;
+  padding: 50px 160px 50px 160px;
+}
+.f-title {
+  color: rgba(14, 14, 14, 1);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+.f-socialmedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+.footer-bar hr {
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  margin: 32px auto 32px;
+  width: 1122px;
+}
