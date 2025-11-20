@@ -10,6 +10,11 @@ body {
 }
 body button {
   cursor: pointer;
+  transition: all .3s;
+}
+body button:hover{
+  background-color: aqua;
+  box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.10);
 }
 /* style */
 .primary-btn {
@@ -447,7 +452,7 @@ nav {
   padding: 18px 40px 18px 40px;
   border: none;
 }
-#subscribe .sub-news .sub-btn {
+.sub-btn {
   color: rgba(255, 255, 255, 1);
   font-size: 18px;
   font-weight: 600;
